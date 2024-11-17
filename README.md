@@ -1,4 +1,4 @@
-# roadSafety app
+# RoadApp
 
 
 ## Description
@@ -61,8 +61,20 @@ npx expo clean
 ```
 
 ## Déploiement 
-Pour créer un build de production : 
+### 1. Configurer EAS (une seule fois)
 ```
-npx expo build:android
-npx expo build:ios
+npx eas-cli@latest install
+npx eas build:configure
 ```
+Cette commande va generer un fichier `eas.json`
+
+### 2. Construire pour Android
+```
+eas build -p android
+```
+
+### 3. Construire pour iOS (si necessaire) : 
+```
+eas build -p ios
+```
+
