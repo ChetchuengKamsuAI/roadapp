@@ -7,7 +7,25 @@ Le but de ce projet est de signaler les defauts d'infrastructures routières. Ce
 ## préréquis
 Assurez-vous d'avoir installé les outils suivants : 
 
-* Node.js (v18.15 exactement) : [Telecharger ici](https://nodejs.org/en).
+* Node.js (v18.15.0 exactement) :<br>
+    =>utilisez NVM (node version Manager) pour windows :  [Telechargez le  fichier nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases?form=MG0AV3), puis dezippez et suivez la procedure d'installation<br>
+    =>verifiez l'installation de NVM avec cette commande : 
+    ```
+    nvm -version
+    ```
+    => installer la version 18.15.0 avec cette commande :
+    ```
+    nvm install 18.15.0
+    ```
+    => utiliser cette version installee : 
+    ```
+    nvm use 18.15.0
+    ```
+    => verifier la version de node js : 
+    ```
+    node -v
+    ```
+
 * npm (installé avec Node.js)
 * Expo CLI (utilisation de `npx expo`)
 * Expo Go App (pour tester l'application sur un appareil mobile) - disponible sur [Google Play](https://play.google.com/store/games?pli=1)
