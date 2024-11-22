@@ -2,7 +2,7 @@
 
 
 ## Description
-Le but de ce projet est de signaler les defauts d'infrastructures routières. Ce guide vous aidera à démarrer rapidement l'application. le lien vers le site web est disponible via [safetyroad app](https://safetyroad.onrender.com/).
+Le but de ce projet est de signaler les defauts d'infrastructures routières. Ce guide vous aidera à démarrer rapidement l'application. le lien vers le site web est disponible via [safetyroad237 app](https://safetyroad237.onrender.com/).
 
 ## préréquis
 Assurez-vous d'avoir installé les outils suivants : 

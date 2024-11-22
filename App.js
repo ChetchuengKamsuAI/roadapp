@@ -108,7 +108,7 @@ const App = () => {
   };
 
   const navigateToSite = () => {
-    Linking.openURL('https://safetyroad.onrender.com') // Opens the site in the browser
+    Linking.openURL('https://safetyroad237.onrender.com/') // Opens the site in the browser
       .catch(err => console.error("Failed to open page:", err));
   };
 
